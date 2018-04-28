@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Week1-Book Recommendation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles week1.css -->
+    <link href="css/week1.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img id = "myImg" class="img-fluid mt-2" src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<main>
+		<div class="container">
+			<div class='row mt-5 mb-5'>
+
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-md-4"></div>
+			
+				<div id="main-column" class="col-md-4">
+				<form>
+				  <div id = "myForm" class="form-group">
+					<label id ="error" for="age">Please Enter a valid Age</label>
+					<label id="mylabel" class="text-white" for="age">Please Enter Your Age</label>
+					<input type="text" class="form-control" id="age" id="age" placeholder="age">
+					<button type="submit" id = "myContinue" class="btn btn-primary form-control mb-2">Continue</button>
+				  </div>
+				</form>
+				<span class="border border-white bg-white text-center" id="preschool"> </span>
+				<span class="border border-white bg-white text-center" id="adult"> </span>
+				<a id="start-over" class="text-center mt-3" href="index.html"><button class="btn btn-primary">Start over</button></a>
+				<button type="submit" onclick="myStart()" id="start" name="start" class="btn btn-primary form-control mb-2">Start</button>
+				</div>
+				
+				<div class="col-md-4"></div>
+			</div>
+			
+			
+			<div class='row mt-5 mb-5'>
+
+			</div>
+			
+		</div>
+		
+	</main>
+	
+<script src="week1.js"></script>
+	
+	
+	
+	
+
+    <!-- Page Content -->
+	<footer>
+		<div class="container bg-transparent fixed-bottom text-white text-center mb-4">
+			copyright 2018 Turaboy Holmirzaev DSN 6040
+		</div>
+	</footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

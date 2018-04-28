@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+  background: url('book2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#myImg {
+	width: 170px;
+	height: 60px;
+}
+
+main {
+	margin-top: 90px;
+}
+
+#myForm {
+	display: none;
+}
+
+#error {
+	display: none;
+	color: red;
+}
+
+#start {
+	display: block;
+}
+
+#preschool {
+	display: none;
+	min-height: 40px;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 18px;
+}
+
+#adult {
+	display: none;
+	min-height: 40px;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 18px;
+}
+
+#start-over {
+	display: none;
+}
+
+#main-column {
+	margin-top: 100px;
+}
