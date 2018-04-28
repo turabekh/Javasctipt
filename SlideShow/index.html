@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Week4-Slide Show</title>
+
+
+  </head>
+  <body class="bg-secondary">
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="home.html">Our Company</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white border border-white ml-4" href="index.html">Slide Show <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="login.html">Login</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <div class="container wrapper">
+            <div id = "slide-row" class="row">
+                <div class="col-md-1"></div>
+                <div id="img-col" class="col-md-10 border border-white rounded">
+                    <img id="myImg" src="" class="img-fluid">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id = "leftButton" onclick="back()" class="btn btn-sm bg-transparent mt-4"><img src="img/buttons/leftArrow.png" title = "Back Button" class="img-fluid controller"></button>
+                    <button id = "playButton" onclick = "play()" class="btn btn-sm bg-transparent mt-4"><img src="img/buttons/playButton.png" title = "Play Button" class="img-fluid controller"></button>
+                    <button id = "pauseButton" onclick = "stopSlide()" class="btn btn-sm bg-transparent mt-4"><img src="img/buttons/pauseButton.png" title = "Pause Button" class="img-fluid controller"></button>
+                    <button id = "rightButton" onclick = "forward()" class="btn btn-sm bg-transparent mt-4"><img src="img/buttons/rightArrow.png" title = "Forward Button" class="img-fluid controller"></button>
+                </div>
+            </div>
+        </div>
+        <script src="js/slideshow.js">
+        </script>
+    </main>
+
+
+	<footer>
+		<div class="container bg-transparent fixed-bottom text-white text-center mb-4">
+			copyright 2018 Turaboy Holmirzaev DSN 6040
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
